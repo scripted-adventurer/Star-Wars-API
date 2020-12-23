@@ -1,0 +1,32 @@
+p.title {
+  font-size: 175%;
+  color: #DF6722;
+}
+
+table.pilot-table {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #b5b5b5;
+  border-collapse: collapse;
+}
+
+table.pilot-table tr {
+  border-collapse: collapse;
+}
+
+table.pilot-table td, th {
+  padding: 5px;
+  border-collapse: collapse;
+  color: #C0AF47;
+  text-align: center;
+}
+
+form.starship-select select {
+  color: #000000;
+}
+
+form.starship-select label {
+  padding: 1%;
+}
