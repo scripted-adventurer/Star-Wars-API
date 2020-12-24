@@ -161,13 +161,14 @@ export class Starships extends React.Component {
       <p className="title">Star Wars Starship Pilots</p>
       <form className="starship-select">
       <p><label htmlFor="starshipName">Starship:&nbsp;
-      <select name="starshipName" onChange={this.selectStarshipName}>
-        <option value=""></option>
+      <select id="starshipName" name="starshipName" 
+        onChange={this.selectStarshipName}>
+        <option value="" key=""></option>
         {this.state.starshipDropdown}
       </select>
       </label></p>
       </form>
-      <table className="pilot-table">
+      <table id="pilot-table">
         <tbody>
         {this.state.pilotNameRows}
         </tbody>

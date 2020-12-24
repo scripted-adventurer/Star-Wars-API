@@ -3,7 +3,7 @@ p.title {
   color: #DF6722;
 }
 
-table.pilot-table {
+table#pilot-table {
   max-width: 100%;
   margin: auto;
   text-align: center;
@@ -12,11 +12,11 @@ table.pilot-table {
   border-collapse: collapse;
 }
 
-table.pilot-table tr {
+table#pilot-table tr {
   border-collapse: collapse;
 }
 
-table.pilot-table td, th {
+table#pilot-table td, th {
   padding: 5px;
   border-collapse: collapse;
   color: #C0AF47;
